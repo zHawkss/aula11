@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aliste-se</title>
+</head>
+<body>
+    <form action=" http://mach1.great-site.net/cadastroRecruta.php" method="post" enctype="application/x-www-form-urlencoded">
+
+        <h1>Aliste-se</h1>
+
+     
+
+        <label> Seu email <br>
+            <input type="email" placeholder="seuemail@mail.com" name="email">
+        </label>
+        <br>
+        <br>
+        <label> Sua senha <br>
+            <input type="password" placeholder="digite sua senha" name="senha">
+        </label>
+        <br>
+        <br>
+
+        <label> Nome completo <br>
+            <input type="text" placeholder="Informe seu nome" name="nomeCompleto">
+        </label>
+
+        <br>
+        <br>
+
+        <label> Digite seu cpf (Apenas números) <br>
+            <input type="text" maxlength="11"  placeholder="000000000000" name="cpf">
+        </label>
+        <br>
+        <br>
+
+        <label> Seu RG (Apenas numeros) <br>
+            <input type="text" maxlength="14" placeholder="000000000" name="rg">
+        </label>
+        <br>
+        <br>
+
+        <label> Data de nascimento <br>
+            <input type="datetime" placeholder="dd/mm/aaaa" name="nascimento">
+        </label>
+
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Necessidades especiais</legend>
+            
+        <label>
+            <input type="radio" name="necessidadesEspeciais" value="sim"> Sim
+
+        </label>
+        <br>
+        
+        <label > 
+            <input type="radio" name="necessidadesEspeciais" value="nao">Não
+        </label>
+
+
+        </fieldset>
+
+        <br>
+        <br>
+        
+       <b> <p>Estado de residencia</p></b>
+
+       <select name="estado">
+
+        <option >Selecione a sua região</option>
+        <option value="N">Norte</option>
+        <option value="S">Sul</option>
+        <option value="No">Nordeste</option>
+        <option value="ce">centro oeste</option>
+        <option value="se">sudeste</option>
+        <option value="Op">Outros paises</option>
+
+
+       </select>
+
+       <br>
+       <br>
+       <br>
+
+       <fieldset>
+        <legend>Especilização desejada</legend>
+
+        
+        <label >
+
+            <input type="checkbox" name="especializacao1" value="mecanica">
+            Mecânica de aeronaves (Back-end)
+    
+        </label>
+
+        <br>
+        <br>
+
+        <label >
+
+            <input type="checkbox" name="especializacao2" value="montagem">
+            Montagem de aeronaves (Front-end)
+    
+        </label>
+
+        <br>
+<br>
+        <label >
+
+            <input type="checkbox" name="especializacao3" value="engenheiro">
+            Engenheiro de aeronaves (Full-stack)
+    
+        </label>
+
+        <br>
+        <br>
+        <label >
+
+            <input type="checkbox" name="especializacao3" value="piloto">
+            Piloto (Tester)
+    
+        </label>
+
+        <br>
+        <br>
+        <label >
+
+            <input type="checkbox" name="especializacao4" value="operador">
+            Operador de trafego aéreo (Srum Master)
+    
+        </label>
+
+       </fieldset>
+
+       <br>
+
+       
+    Adicione a sua foto <input type="file" name="foto">
+
+    <br>
+    <br>
+
+    <input type="submit">
+
+
+
+
+
+
+
+
+    </form>    
+</body>
+</html>
